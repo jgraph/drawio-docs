@@ -24,7 +24,7 @@ Depending on what type of file you embed from OneDrive or Google Drive, page vie
 
 ## What happens when the Diagram Viewer app is uninstalled?
 
-The embedded diagrams and files in Confluence or Jira will no longer be able to be displayed. In Confluence, this will be displayed as if the macro is broken (no macros are deleted though). Of course, no data on OneDrive or Google Drive is deleted!
+The embedded diagrams and files in Confluence or Jira will no longer be able to be displayed. In Confluence, this will be displayed as if the macro is broken (no macros are deleted though). No data on OneDrive or Google Drive is deleted
 
 When you reinstall the Diagram Viewer app, as long as the connection with OneDrive or Google Drive is still authorized, your diagrams and files will be displayed again, no further steps necessary.
 
@@ -39,14 +39,6 @@ When you reinstall the Diagram Viewer app, as long as the connection with OneDri
 Seeing as both OneDrive and Google Drive are cloud storage platforms, it makes sense to have these apps available for the Cloud versions of Jira and Confluence.
 
 Server instances are often located behind a firewall, which may block access to such cloud storage platforms and make the Diagram Viewer apps unusable.
-
-## draw.io viewer shows "Invalid License : Version mismatch"
-
-If all embedded diagrams in the Diagram Viewer macros display the above text, or an equivalent translation, you have installed a version of the draw.io app that was released after your license maintenance period expired.
-
-To resolve this, you have two options:
-1. Renew your maintenance on the draw.io app for Confluence or Jira to use the most recent version of the app, or
-2. Revert to the last available app released before the expiry date of your license maintenance period.
 
 ## Where can I get support?
 
