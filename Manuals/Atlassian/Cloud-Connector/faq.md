@@ -6,7 +6,6 @@
 - [What happens when the Diagram Viewer app is uninstalled?](#what-happens-when-the-diagram-viewer-app-is-uninstalled)
   - [How to uninstall the Diagram Viewer apps](#how-to-uninstall-the-diagram-viewer-apps)
 - [Why are the apps only available on Cloud?](#why-are-the-apps-only-available-on-cloud)
-- [draw.io viewer shows "Invalid License : Version mismatch"](#drawio-viewer-shows-invalid-license--version-mismatch)
 - [Where can I get support?](#where-can-i-get-support)
 
 <!-- /TOC -->
