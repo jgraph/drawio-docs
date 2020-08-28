@@ -1,0 +1,2946 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/QAPage"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>Integrate an online UML/diagram editor such as gliffy - Meta Stack Overflow</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/stackoverflowmeta/img/favicon.ico?v=59edb4c8e3e3">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflowmeta/img/apple-touch-icon.png?v=b73aa18f2881">
+    <link rel="search" type="application/opensearchdescription+xml" title="Meta Stack Overflow" href="http://meta.stackoverflow.com/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="meta.stackoverflow.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflowmeta/img/apple-touch-icon@2.png?v=6de7587d1583&amp;a">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Integrate an online UML/diagram editor such as gliffy">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="It is helpful to draw diagrams to illustrate a question or an answer. Since UML is the lingua franca of software descriptions, it'd be useful to be able to include such diagrams too. Right now the ">
+    <meta property="og:url" content="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy">
+    <link rel="canonical" href="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy">
+
+    
+    
+    <script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/jquery.js"></script>
+    <script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/stub.js"></script>
+    <link rel="stylesheet" type="text/css" href="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/all.css">
+	<style type="text/css">
+		iframe {
+			border:0;
+			position:fixed;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			width:100%;
+			height:100%
+		}
+	</style>
+            <link rel="alternate" type="application/atom+xml" title="Feed for question 'Integrate an online UML/diagram editor such as gliffy'" href="http://meta.stackoverflow.com/feeds/question/306256">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+        
+            StackExchange.ready(function () {
+                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({votesCast:[{"PostId":306256,"VoteTypeId":2}],canViewVoteCounts:true,totalCommentCount:6,shownCommentCount:6,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:306256});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('552', '306256');
+                                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+
+    <script>
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('wss://qa.sockets.stackexchange.com,ws://qa.sockets.stackexchange.com');
+            StackExchange.realtime.subscribeToReputationNotifications('552');
+                StackExchange.realtime.subscribeToTopBarNotifications('552');
+        });
+    </script>
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1442826360,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/Show","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Meta Stack Overflow","description":"Q&A about the Stack Exchange site for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","recaptchaAudioLang":"en","enableNewTagCreationWarning":false,"insertSpaceAfterNameTabCompletion":false,"globalAuthDisabled":true,"isChildMeta":true,"parentUrl":"http://stackoverflow.com","isMetaSite":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"6a453ecb79a61fbd90ba47003bad82fc","rep":4116,"isRegistered":true,"userType":3,"userId":226469,"accountId":79982,"gravatar":"<div class=\"gravatar-wrapper-32\"><img src=\"https://www.gravatar.com/avatar/99db7bcf612b9918f6526c09149aa71b?s=32&amp;d=identicon&amp;r=PG\" alt=\"\" width=\"32\" height=\"32\"></div>","profileUrl":"http://meta.stackoverflow.com/users/226469/david","ab":{"topbar_next_achievement":{"v":"a","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"467ab89e1ab9","js/moderator.en.js":"105f93076ee3","js/full-anon.en.js":"9105c5329a7f","js/full.en.js":"227c016d7ad3","js/wmd.en.js":"6210136d7629","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"63f328cff3bb","js/help.en.js":"857b6aaa865f","js/tageditor.en.js":"9c54855bf167","js/tageditornew.en.js":"44ca6be5174f","js/inline-tag-editing.en.js":"de80429b1816","js/revisions.en.js":"9e897f24d78d","js/review.en.js":"9c23266d698b","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"7c48822b4f66","js/explore-qlist.en.js":"cd6e5274146c","js/events.en.js":"62be9096261f","js/keyboard-shortcuts.en.js":"5652ba64dba4","js/external-editor.en.js":"d950ed54074b","js/external-editor.en.js":"d950ed54074b","js/snippet-javascript.en.js":"a192148a6b35","js/snippet-javascript-codemirror.en.js":"ba2e2d883ac8"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+<script>
+// Edits an image with drawio class on double click
+	document.addEventListener('dblclick', function(evt)
+	{
+		var url = 'https://www.draw.io/?embed=1&ui=atlas&spin=1&modified=unsavedChanges&proto=json';
+		var source = evt.srcElement || evt.target;
+		
+		if (source.nodeName == 'IMG' && source.className == 'drawio')
+		{
+			if (source.drawIoWindow == null || source.drawIoWindow.closed)
+			{
+				// Implements protocol for loading and exporting with embedded XML
+				var receive = function(evt)
+				{
+					if (evt.data.length > 0 && evt.source == source.drawIoWindow)
+					{
+						var msg = JSON.parse(evt.data);
+
+						// Received if the editor is ready
+						if (msg.event == 'init')
+						{
+							// Sends the data URI with embedded XML to editor
+							source.drawIoWindow.postMessage(JSON.stringify({action: 'load', xmlpng: source.getAttribute('src')}), '*');
+						}
+						// Received if the user clicks save
+						else if (msg.event == 'save')
+						{
+							// Sends a request to export the diagram as XML with embedded PNG
+							source.drawIoWindow.postMessage(JSON.stringify({action: 'export', format: 'xmlpng', spinKey: 'saving'}), '*');
+						}
+						// Received if the export request was processed
+						else if (msg.event == 'export')
+						{
+							// Updates the data URI of the image
+							source.setAttribute('src', msg.data);
+						}
+			
+						// Received if the user clicks exit or after export
+						if (msg.event == 'exit' || msg.event == 'export')
+						{
+							// Closes the editor
+							window.removeEventListener('message', receive);
+							source.drawIoWindow.close();
+							source.drawIoWindow = null;
+						}
+					}
+				};
+
+				// Opens the editor
+				window.addEventListener('message', receive);
+				source.drawIoWindow = window.open(url);
+			}
+			else
+			{
+				// Shows existing editor window
+				source.drawIoWindow.focus();
+			}
+		}
+	});
+</script> 
+    
+    
+<script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/full.js" async=""></script><script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/snippet-javascript.js" async=""></script><script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/post-validation.js" async=""></script><script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/external-editor.js" async=""></script><script src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/wmd.js" async=""></script><style type="text/css"> .wmd-snippet-button span { background-position: 0 0; } .wmd-snippet-button:hover span { background-position: 0 -40px; }</style></head>
+<body class="question-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div style="top: 34px; left: 0px; display: none;" class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="http://meta.stackoverflow.com/">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+            <a href="http://chat.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+                    <a href="http://blog.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:7 })">blog</a>
+                    <a href="http://stackoverflow.com/users/logout" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:8 })">log out</a>
+    </div>
+
+
+
+
+    <a href="http://stackoverflow.com/" class="site-link js-gps-track" data-id="1" data-gps-track="
+            site.switch({ target_site:1, item_type:3 }),
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com/" class="current-site-link site-link js-gps-track" data-id="552" data-gps-track="
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track" href="http://careers.stackoverflow.com/?utm_source=meta.stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider" data-gps-track="site_switcher.click({ item_type:9 })">
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+                <a href="http://stackexchange.com/users/79982/?tab=accounts">your communities</a>
+        </h3>
+            
+            <a href="#" id="edit-pinned-sites">edit</a>
+            <a href="#" id="cancel-pinned-sites" style="display: none;">cancel</a>
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <ul class="my-sites">
+                    <li>
+                        
+
+
+
+    <a href="http://stackoverflow.com/" class="site-link js-gps-track" data-id="1" data-gps-track="
+            site.switch({ target_site:1, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+            <span class="rep-score">4,116</span>
+    </a>
+
+                    </li>
+                    <li>
+                        
+
+
+
+    <a href="http://webapps.stackexchange.com/" class="site-link js-gps-track" data-id="34" data-gps-track="
+            site.switch({ target_site:34, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-webapps" title="Web Applications"></div>
+        Web Applications
+            <span class="rep-score">1,700</span>
+    </a>
+
+                    </li>
+                    <li>
+                        
+
+
+
+    <a href="http://programmers.stackexchange.com/" class="site-link js-gps-track" data-id="131" data-gps-track="
+            site.switch({ target_site:131, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-programmers" title="Programmers"></div>
+        Programmers
+            <span class="rep-score">357</span>
+    </a>
+
+                    </li>
+                    <li>
+                        
+
+
+
+    <a href="http://serverfault.com/" class="site-link js-gps-track" data-id="2" data-gps-track="
+            site.switch({ target_site:2, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-serverfault" title="Server Fault"></div>
+        Server Fault
+            <span class="rep-score">267</span>
+    </a>
+
+                    </li>
+                    <li>
+                        
+
+
+
+    <a href="http://apple.stackexchange.com/" class="site-link js-gps-track" data-id="118" data-gps-track="
+            site.switch({ target_site:118, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-apple" title="Ask Different"></div>
+        Ask Different
+            <span class="rep-score">189</span>
+    </a>
+
+                    </li>
+            </ul>
+                <div class="pinned-site-editor-container" style="display: none;">
+                    <input style="" id="js-site-search-txt" class="site-filter-input" placeholder="Add a Stack Exchange community" type="text">
+                    <input id="pin-site-btn" value="Add" disabled="disabled" type="submit">
+                    <ul style="width: 302px; display: none;" class="js-found-sites found-sites"></ul>
+                    <ul class="pinned-site-list sortable" data-custom-list="False">
+                    </ul>
+                    <input value="Save" id="save-pinned-sites-btn" disabled="disabled" type="submit">
+                    <a href="#" id="reset-pinned-sites">reset to default list</a>
+                </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+    </div>
+    <div class="modal-content">
+            <div class="child-content">
+
+<div class="site-filter-container">
+    <input id="js-site-filter-txt" class="site-filter-input" placeholder="Find a Stack Exchange community" type="text">
+</div>
+
+<ul class="other-sites js-other-sites">
+        <li>
+                <a class="other-site-link js-gps-track" href="http://academia.stackexchange.com/" data-id="415" data-gps-track="site.switch({ target_site:415, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-academia" title="Academia"></div>
+        Academia
+        <p class="site-desc">For academics and those enrolled in higher education</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://ham.stackexchange.com/" data-id="520" data-gps-track="site.switch({ target_site:520, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-ham" title="Amateur Radio"></div>
+        Amateur Radio
+        <p class="site-desc">For amateur radio enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://android.stackexchange.com/" data-id="139" data-gps-track="site.switch({ target_site:139, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-android" title="Android Enthusiasts"></div>
+        Android Enthusiasts
+        <p class="site-desc">For enthusiasts and power users of the Android operating system</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://anime.stackexchange.com/" data-id="477" data-gps-track="site.switch({ target_site:477, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-anime" title="Anime &amp; Manga"></div>
+        Anime &amp; Manga
+        <p class="site-desc">For anime and manga fans</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://arduino.stackexchange.com/" data-id="540" data-gps-track="site.switch({ target_site:540, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-arduino" title="Arduino"></div>
+        Arduino
+        <p class="site-desc">For developers of open-source hardware and software that is compatible with Arduino</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://area51.stackexchange.com/" data-id="11" data-gps-track="site.switch({ target_site:11, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-area51" title="Area 51"></div>
+        Area 51
+        <p class="site-desc">For proposing new sites in the Stack Exchange network</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://gaming.stackexchange.com/" data-id="41" data-gps-track="site.switch({ target_site:41, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-gaming" title="Arqade"></div>
+        Arqade
+        <p class="site-desc">For passionate videogamers on all platforms</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://apple.stackexchange.com/" data-id="118" data-gps-track="site.switch({ target_site:118, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-apple" title="Ask Different"></div>
+        Ask Different
+        <p class="site-desc">For power users of Apple hardware and software</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://patents.stackexchange.com/" data-id="463" data-gps-track="site.switch({ target_site:463, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-patents" title="Ask Patents"></div>
+        Ask Patents
+        <p class="site-desc">For people interested in improving and participating in the patent system</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://askubuntu.com/" data-id="89" data-gps-track="site.switch({ target_site:89, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-askubuntu" title="Ask Ubuntu"></div>
+        Ask Ubuntu
+        <p class="site-desc">For Ubuntu users and developers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://astronomy.stackexchange.com/" data-id="514" data-gps-track="site.switch({ target_site:514, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-astronomy" title="Astronomy"></div>
+        Astronomy
+        <p class="site-desc">For astronomers and astrophysicists</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://aviation.stackexchange.com/" data-id="528" data-gps-track="site.switch({ target_site:528, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-aviation" title="Aviation"></div>
+        Aviation
+        <p class="site-desc">For aircraft pilots, mechanics, and enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://beer.stackexchange.com/" data-id="532" data-gps-track="site.switch({ target_site:532, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-beer" title="Beer"></div>
+        Beer
+        <p class="site-desc">For beer aficionados and collectors</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://hermeneutics.stackexchange.com/" data-id="320" data-gps-track="site.switch({ target_site:320, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-hermeneutics" title="Biblical Hermeneutics"></div>
+        Biblical Hermeneutics
+        <p class="site-desc">For professors, theologians, and those interested in exegetical analysis of biblical texts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://bicycles.stackexchange.com/" data-id="126" data-gps-track="site.switch({ target_site:126, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-bicycles" title="Bicycles"></div>
+        Bicycles
+        <p class="site-desc">For people who build and repair bicycles, people who train cycling, or commute on bicycles</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://biology.stackexchange.com/" data-id="375" data-gps-track="site.switch({ target_site:375, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-biology" title="Biology"></div>
+        Biology
+        <p class="site-desc">For biology researchers, academics, and students</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://bitcoin.stackexchange.com/" data-id="308" data-gps-track="site.switch({ target_site:308, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-bitcoin" title="Bitcoin"></div>
+        Bitcoin
+        <p class="site-desc">For Bitcoin crypto-currency enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://blender.stackexchange.com/" data-id="502" data-gps-track="site.switch({ target_site:502, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-blender" title="Blender"></div>
+        Blender
+        <p class="site-desc">For people who use Blender to create 3D graphics, animations, or games</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://boardgames.stackexchange.com/" data-id="147" data-gps-track="site.switch({ target_site:147, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-boardgames" title="Board &amp; Card Games"></div>
+        Board &amp; Card Games
+        <p class="site-desc">For people who like playing board games, designing board games or modifying the rules of existing board games</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://buddhism.stackexchange.com/" data-id="565" data-gps-track="site.switch({ target_site:565, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-buddhism" title="Buddhism"></div>
+        Buddhism
+        <p class="site-desc">For people practicing or interested in Buddhist philosophy, teaching, and practice</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://chemistry.stackexchange.com/" data-id="431" data-gps-track="site.switch({ target_site:431, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-chemistry" title="Chemistry"></div>
+        Chemistry
+        <p class="site-desc">For scientists, academics, teachers and students</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://chess.stackexchange.com/" data-id="435" data-gps-track="site.switch({ target_site:435, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-chess" title="Chess"></div>
+        Chess
+        <p class="site-desc">For serious players and enthusiasts of chess</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://chinese.stackexchange.com/" data-id="371" data-gps-track="site.switch({ target_site:371, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-chinese" title="Chinese Language"></div>
+        Chinese Language
+        <p class="site-desc">For students, teachers, and linguists wanting to discuss the finer points of the Chinese language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://christianity.stackexchange.com/" data-id="304" data-gps-track="site.switch({ target_site:304, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-christianity" title="Christianity"></div>
+        Christianity
+        <p class="site-desc">For committed Christians, experts in Christianity and those interested in learning more</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://civicrm.stackexchange.com/" data-id="605" data-gps-track="site.switch({ target_site:605, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-civicrm" title="CiviCRM"></div>
+        CiviCRM
+        <p class="site-desc">For administrators and users of the CiviCRM  Constituent Relationship Management software</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://codereview.stackexchange.com/" data-id="196" data-gps-track="site.switch({ target_site:196, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-codereview" title="Code Review"></div>
+        Code Review
+        <p class="site-desc">For peer programmer code reviews</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://coffee.stackexchange.com/" data-id="597" data-gps-track="site.switch({ target_site:597, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-coffee" title="Coffee"></div>
+        Coffee
+        <p class="site-desc">For people interested in all aspects of producing and consuming coffee</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://cogsci.stackexchange.com/" data-id="391" data-gps-track="site.switch({ target_site:391, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-cogsci" title="Cognitive Sciences"></div>
+        Cognitive Sciences
+        <p class="site-desc">For practitioners, researchers, and students in cognitive science, psychology, neuroscience, and psychiatry</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://communitybuilding.stackexchange.com/" data-id="571" data-gps-track="site.switch({ target_site:571, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-communitybuilding" title="Community Building"></div>
+        Community Building
+        <p class="site-desc">For community managers, administrators, and moderators</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://scicomp.stackexchange.com/" data-id="363" data-gps-track="site.switch({ target_site:363, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-scicomp" title="Computational Science"></div>
+        Computational Science
+        <p class="site-desc">For scientists using computers to solve scientific problems</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://computergraphics.stackexchange.com/" data-id="633" data-gps-track="site.switch({ target_site:633, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-computergraphics" title="Computer Graphics"></div>
+        Computer Graphics
+        <p class="site-desc">For computer graphics researchers and programmers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://cs.stackexchange.com/" data-id="419" data-gps-track="site.switch({ target_site:419, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-cs" title="Computer Science"></div>
+        Computer Science
+        <p class="site-desc">For students, researchers and practitioners of computer science</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://craftcms.stackexchange.com/" data-id="563" data-gps-track="site.switch({ target_site:563, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-craftcms" title="Craft CMS"></div>
+        Craft CMS
+        <p class="site-desc">For administrators, end users, developers and designers for Craft CMS</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://stats.stackexchange.com/" data-id="65" data-gps-track="site.switch({ target_site:65, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-stats" title="Cross Validated"></div>
+        Cross Validated
+        <p class="site-desc">For people interested in statistics, machine learning, data analysis, data mining, and data visualization</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://crypto.stackexchange.com/" data-id="281" data-gps-track="site.switch({ target_site:281, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-crypto" title="Cryptography"></div>
+        Cryptography
+        <p class="site-desc">For software developers, mathematicians and others interested in cryptography</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://datascience.stackexchange.com/" data-id="557" data-gps-track="site.switch({ target_site:557, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-datascience" title="Data Science"></div>
+        Data Science
+        <p class="site-desc">For Data science professionals, Machine Learning specialists, and those interested in learning more about the field</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://dba.stackexchange.com/" data-id="182" data-gps-track="site.switch({ target_site:182, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-dba" title="Database Administrators"></div>
+        Database Administrators
+        <p class="site-desc">For database professionals who wish to improve their database skills and learn from others in the community</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://drupal.stackexchange.com/" data-id="220" data-gps-track="site.switch({ target_site:220, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-drupal" title="Drupal Answers"></div>
+        Drupal Answers
+        <p class="site-desc">For Drupal developers and administrators</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://earthscience.stackexchange.com/" data-id="553" data-gps-track="site.switch({ target_site:553, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-earthscience" title="Earth Science"></div>
+        Earth Science
+        <p class="site-desc">For those interested in the geology, meteorology, oceanography, and environmental sciences</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://ebooks.stackexchange.com/" data-id="530" data-gps-track="site.switch({ target_site:530, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-ebooks" title="Ebooks"></div>
+        Ebooks
+        <p class="site-desc">For ebook publishers and readers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://economics.stackexchange.com/" data-id="591" data-gps-track="site.switch({ target_site:591, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-economics" title="Economics"></div>
+        Economics
+        <p class="site-desc">For professional and academic economists and analysts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://electronics.stackexchange.com/" data-id="135" data-gps-track="site.switch({ target_site:135, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-electronics" title="Electrical Engineering"></div>
+        Electrical Engineering
+        <p class="site-desc">For electronics and electrical engineering professionals, students, and enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://elementaryos.stackexchange.com/" data-id="621" data-gps-track="site.switch({ target_site:621, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-elementaryos" title="elementary OS"></div>
+        elementary OS
+        <p class="site-desc">For developers and users of elementary OS and applications</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://emacs.stackexchange.com/" data-id="583" data-gps-track="site.switch({ target_site:583, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-emacs" title="Emacs"></div>
+        Emacs
+        <p class="site-desc">For those using, extending or developing Emacs</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://engineering.stackexchange.com/" data-id="595" data-gps-track="site.switch({ target_site:595, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-engineering" title="Engineering"></div>
+        Engineering
+        <p class="site-desc">For professionals and students of engineering</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://english.stackexchange.com/" data-id="97" data-gps-track="site.switch({ target_site:97, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-english" title="English Language &amp; Usage"></div>
+        English Language &amp; Usage
+        <p class="site-desc">For linguists, etymologists, and serious English language enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://ell.stackexchange.com/" data-id="481" data-gps-track="site.switch({ target_site:481, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-ell" title="English Language Learners"></div>
+        English Language Learners
+        <p class="site-desc">For speakers of other languages learning English</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://expatriates.stackexchange.com/" data-id="546" data-gps-track="site.switch({ target_site:546, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-expatriates" title="Expatriates"></div>
+        Expatriates
+        <p class="site-desc">For people living abroad on a long-term basis</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://expressionengine.stackexchange.com/" data-id="471" data-gps-track="site.switch({ target_site:471, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-expressionengine" title="ExpressionEngine® Answers"></div>
+        ExpressionEngine® Answers
+        <p class="site-desc">For administrators, end users, developers and designers for ExpressionEngine® CMS</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://freelancing.stackexchange.com/" data-id="500" data-gps-track="site.switch({ target_site:500, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-freelancing" title="Freelancing"></div>
+        Freelancing
+        <p class="site-desc">For  self-employed and freelance workers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://french.stackexchange.com/" data-id="299" data-gps-track="site.switch({ target_site:299, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-french" title="French Language"></div>
+        French Language
+        <p class="site-desc">For students, teachers, and linguists wanting to discuss the finer points of the French language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://gamedev.stackexchange.com/" data-id="53" data-gps-track="site.switch({ target_site:53, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-gamedev" title="Game Development"></div>
+        Game Development
+        <p class="site-desc">For professional and independent game developers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://gardening.stackexchange.com/" data-id="269" data-gps-track="site.switch({ target_site:269, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-gardening" title="Gardening &amp; Landscaping"></div>
+        Gardening &amp; Landscaping
+        <p class="site-desc">For gardeners and landscapers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://genealogy.stackexchange.com/" data-id="467" data-gps-track="site.switch({ target_site:467, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-genealogy" title="Genealogy &amp; Family History"></div>
+        Genealogy &amp; Family History
+        <p class="site-desc">For expert genealogists and people interested in genealogy or family history</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://gis.stackexchange.com/" data-id="79" data-gps-track="site.switch({ target_site:79, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-gis" title="Geographic Information Systems"></div>
+        Geographic Information Systems
+        <p class="site-desc">For cartographers, geographers and GIS professionals</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://german.stackexchange.com/" data-id="253" data-gps-track="site.switch({ target_site:253, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-german" title="German Language"></div>
+        German Language
+        <p class="site-desc">For speakers of German wanting to discuss the finer points of the language and translation</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://graphicdesign.stackexchange.com/" data-id="174" data-gps-track="site.switch({ target_site:174, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-graphicdesign" title="Graphic Design"></div>
+        Graphic Design
+        <p class="site-desc">For Graphic Design professionals, students, and enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://health.stackexchange.com/" data-id="607" data-gps-track="site.switch({ target_site:607, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-health" title="Health"></div>
+        Health
+        <p class="site-desc">For medical specialists, students, dietitians, and anyone with health-related questions</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://hinduism.stackexchange.com/" data-id="567" data-gps-track="site.switch({ target_site:567, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-hinduism" title="Hinduism"></div>
+        Hinduism
+        <p class="site-desc">For followers of the Hindu religion and those interested in learning more about Hinduism</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://hsm.stackexchange.com/" data-id="587" data-gps-track="site.switch({ target_site:587, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-hsm" title="History of Science and Mathematics"></div>
+        History of Science and Mathematics
+        <p class="site-desc">For people interested in the history and origins of science and mathematics</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://history.stackexchange.com/" data-id="324" data-gps-track="site.switch({ target_site:324, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-history" title="History"></div>
+        History
+        <p class="site-desc">For historians and history buffs</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://diy.stackexchange.com/" data-id="73" data-gps-track="site.switch({ target_site:73, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-diy" title="Home Improvement"></div>
+        Home Improvement
+        <p class="site-desc">For contractors and serious DIYers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://homebrew.stackexchange.com/" data-id="156" data-gps-track="site.switch({ target_site:156, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-homebrew" title="Homebrewing"></div>
+        Homebrewing
+        <p class="site-desc">For dedicated home brewers and serious enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://security.stackexchange.com/" data-id="162" data-gps-track="site.switch({ target_site:162, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-security" title="Information Security"></div>
+        Information Security
+        <p class="site-desc">For information security professionals</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://islam.stackexchange.com/" data-id="455" data-gps-track="site.switch({ target_site:455, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-islam" title="Islam"></div>
+        Islam
+        <p class="site-desc">For Muslims, experts in Islam, and those interested in learning more about Islam</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://italian.stackexchange.com/" data-id="524" data-gps-track="site.switch({ target_site:524, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-italian" title="Italian Language"></div>
+        Italian Language
+        <p class="site-desc">For students, teachers, and linguists wanting to discuss the finer points of the Italian language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://japanese.stackexchange.com/" data-id="257" data-gps-track="site.switch({ target_site:257, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-japanese" title="Japanese Language"></div>
+        Japanese Language
+        <p class="site-desc">For students, teachers, and linguists wanting to discuss the finer points of the Japanese language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://joomla.stackexchange.com/" data-id="555" data-gps-track="site.switch({ target_site:555, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-joomla" title="Joomla"></div>
+        Joomla
+        <p class="site-desc">For Joomla! administrators, users, developers and designers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://law.stackexchange.com/" data-id="617" data-gps-track="site.switch({ target_site:617, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-law" title="Law"></div>
+        Law
+        <p class="site-desc">For legal professionals, students, and others with experience or interest in law</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://bricks.stackexchange.com/" data-id="336" data-gps-track="site.switch({ target_site:336, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-bricks" title="LEGO® Answers"></div>
+        LEGO® Answers
+        <p class="site-desc">For LEGO® and building block enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://lifehacks.stackexchange.com/" data-id="593" data-gps-track="site.switch({ target_site:593, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-lifehacks" title="Lifehacks"></div>
+        Lifehacks
+        <p class="site-desc">For people looking to bypass life's everyday problems with simple tricks</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://linguistics.stackexchange.com/" data-id="312" data-gps-track="site.switch({ target_site:312, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-linguistics" title="Linguistics"></div>
+        Linguistics
+        <p class="site-desc">For professional linguists and others with an interest in linguistic research and theory</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://magento.stackexchange.com/" data-id="479" data-gps-track="site.switch({ target_site:479, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-magento" title="Magento"></div>
+        Magento
+        <p class="site-desc">For users of the Magento e-Commerce platform</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://martialarts.stackexchange.com/" data-id="403" data-gps-track="site.switch({ target_site:403, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-martialarts" title="Martial Arts"></div>
+        Martial Arts
+        <p class="site-desc">For students and teachers of all martial arts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://mathematica.stackexchange.com/" data-id="387" data-gps-track="site.switch({ target_site:387, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-mathematica" title="Mathematica"></div>
+        Mathematica
+        <p class="site-desc">For users of Mathematica</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://matheducators.stackexchange.com/" data-id="548" data-gps-track="site.switch({ target_site:548, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-matheducators" title="Mathematics Educators"></div>
+        Mathematics Educators
+        <p class="site-desc">For those involved in the field of teaching mathematics</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://math.stackexchange.com/" data-id="69" data-gps-track="site.switch({ target_site:69, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-math" title="Mathematics"></div>
+        Mathematics
+        <p class="site-desc">For people studying math at any level and professionals in related fields</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://mathoverflow.net/" data-id="504" data-gps-track="site.switch({ target_site:504, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-mathoverflow" title="MathOverflow"></div>
+        MathOverflow
+        <p class="site-desc">For professional mathematicians</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://meta.stackexchange.com/" data-id="4" data-gps-track="site.switch({ target_site:4, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-stackexchangemeta" title="Meta Stack Exchange"></div>
+        Meta Stack Exchange
+        <p class="site-desc">For meta-discussion of the Stack Exchange family of Q&amp;A websites</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://judaism.stackexchange.com/" data-id="248" data-gps-track="site.switch({ target_site:248, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-judaism" title="Mi Yodeya"></div>
+        Mi Yodeya
+        <p class="site-desc">For those who base their lives on Jewish law and tradition and anyone interested in learning more</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://mechanics.stackexchange.com/" data-id="224" data-gps-track="site.switch({ target_site:224, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair"></div>
+        Motor Vehicle Maintenance &amp; Repair
+        <p class="site-desc">For mechanics and DIY enthusiast owners of cars, trucks, and motorcycles</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://movies.stackexchange.com/" data-id="367" data-gps-track="site.switch({ target_site:367, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-movies" title="Movies &amp; TV"></div>
+        Movies &amp; TV
+        <p class="site-desc">For movie and tv enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://musicfans.stackexchange.com/" data-id="601" data-gps-track="site.switch({ target_site:601, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-musicfans" title="Music Fans"></div>
+        Music Fans
+        <p class="site-desc">For music historians, critics, and fans</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://music.stackexchange.com/" data-id="240" data-gps-track="site.switch({ target_site:240, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-music" title="Music: Practice &amp; Theory"></div>
+        Music: Practice &amp; Theory
+        <p class="site-desc">For musicians, students, and enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://mythology.stackexchange.com/" data-id="615" data-gps-track="site.switch({ target_site:615, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-mythology" title="Mythology"></div>
+        Mythology
+        <p class="site-desc">For enthusiasts and scholars of mythology</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://networkengineering.stackexchange.com/" data-id="496" data-gps-track="site.switch({ target_site:496, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-networkengineering" title="Network Engineering"></div>
+        Network Engineering
+        <p class="site-desc">For network engineers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://opendata.stackexchange.com/" data-id="498" data-gps-track="site.switch({ target_site:498, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-opendata" title="Open Data"></div>
+        Open Data
+        <p class="site-desc">For developers and researchers interested in open data</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://opensource.stackexchange.com/" data-id="619" data-gps-track="site.switch({ target_site:619, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-opensource" title="Open Source"></div>
+        Open Source
+        <p class="site-desc">For people organizing, marketing or licensing open source development projects</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://parenting.stackexchange.com/" data-id="228" data-gps-track="site.switch({ target_site:228, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-parenting" title="Parenting"></div>
+        Parenting
+        <p class="site-desc">For parents, grandparents, nannies and others with a parenting role</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://money.stackexchange.com/" data-id="93" data-gps-track="site.switch({ target_site:93, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-money" title="Personal Finance &amp; Money"></div>
+        Personal Finance &amp; Money
+        <p class="site-desc">For people who want to be financially literate</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://productivity.stackexchange.com/" data-id="277" data-gps-track="site.switch({ target_site:277, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-productivity" title="Personal Productivity"></div>
+        Personal Productivity
+        <p class="site-desc">For people wanting to improve their personal productivity</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://pets.stackexchange.com/" data-id="518" data-gps-track="site.switch({ target_site:518, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-pets" title="Pets"></div>
+        Pets
+        <p class="site-desc">For pet owners, caretakers, breeders, veterinarians, and trainers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://philosophy.stackexchange.com/" data-id="265" data-gps-track="site.switch({ target_site:265, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-philosophy" title="Philosophy"></div>
+        Philosophy
+        <p class="site-desc">For those interested in logical reasoning</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://photo.stackexchange.com/" data-id="61" data-gps-track="site.switch({ target_site:61, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-photo" title="Photography"></div>
+        Photography
+        <p class="site-desc">For professional, enthusiast and amateur photographers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://fitness.stackexchange.com/" data-id="216" data-gps-track="site.switch({ target_site:216, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-fitness" title="Physical Fitness"></div>
+        Physical Fitness
+        <p class="site-desc">For physical fitness professionals, athletes, trainers, and those providing health-related needs</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://physics.stackexchange.com/" data-id="151" data-gps-track="site.switch({ target_site:151, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-physics" title="Physics"></div>
+        Physics
+        <p class="site-desc">For active researchers, academics and students of physics</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://poker.stackexchange.com/" data-id="379" data-gps-track="site.switch({ target_site:379, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-poker" title="Poker"></div>
+        Poker
+        <p class="site-desc">For serious players and enthusiasts of poker</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://politics.stackexchange.com/" data-id="475" data-gps-track="site.switch({ target_site:475, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-politics" title="Politics"></div>
+        Politics
+        <p class="site-desc">For people interested in governments, policies, and political processes</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://portuguese.stackexchange.com/" data-id="625" data-gps-track="site.switch({ target_site:625, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-portuguese" title="Portuguese Language"></div>
+        Portuguese Language
+        <p class="site-desc">For linguists, teachers and learners wanting to discuss the finer points of the Portuguese language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://programmers.stackexchange.com/" data-id="131" data-gps-track="site.switch({ target_site:131, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-programmers" title="Programmers"></div>
+        Programmers
+        <p class="site-desc">For professional programmers interested in conceptual questions about software development</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://codegolf.stackexchange.com/" data-id="200" data-gps-track="site.switch({ target_site:200, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf"></div>
+        Programming Puzzles &amp; Code Golf
+        <p class="site-desc">For programming puzzle enthusiasts and code golfers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://pm.stackexchange.com/" data-id="208" data-gps-track="site.switch({ target_site:208, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-pm" title="Project Management"></div>
+        Project Management
+        <p class="site-desc">For project managers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://puzzling.stackexchange.com/" data-id="559" data-gps-track="site.switch({ target_site:559, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-puzzling" title="Puzzling"></div>
+        Puzzling
+        <p class="site-desc">For those who create, solve, and study puzzles</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://quant.stackexchange.com/" data-id="204" data-gps-track="site.switch({ target_site:204, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-quant" title="Quantitative Finance"></div>
+        Quantitative Finance
+        <p class="site-desc">For finance professionals and academics</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://raspberrypi.stackexchange.com/" data-id="447" data-gps-track="site.switch({ target_site:447, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-raspberrypi" title="Raspberry Pi"></div>
+        Raspberry Pi
+        <p class="site-desc">For users and developers of hardware and software for Raspberry Pi</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://reverseengineering.stackexchange.com/" data-id="489" data-gps-track="site.switch({ target_site:489, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-reverseengineering" title="Reverse Engineering"></div>
+        Reverse Engineering
+        <p class="site-desc">For researchers and developers who explore the principles of a system through analysis of its structure, function, and operation</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://robotics.stackexchange.com/" data-id="469" data-gps-track="site.switch({ target_site:469, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-robotics" title="Robotics"></div>
+        Robotics
+        <p class="site-desc">For professional robotic engineers, hobbyists, researchers and students</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://rpg.stackexchange.com/" data-id="122" data-gps-track="site.switch({ target_site:122, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-rpg" title="Role-playing Games"></div>
+        Role-playing Games
+        <p class="site-desc">For gamemasters and players of tabletop, paper-and-pencil role-playing games</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://russian.stackexchange.com/" data-id="451" data-gps-track="site.switch({ target_site:451, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-russian" title="Russian Language"></div>
+        Russian Language
+        <p class="site-desc">For students, teachers, and linguists wanting to discuss the finer points of the Russian language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://salesforce.stackexchange.com/" data-id="459" data-gps-track="site.switch({ target_site:459, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-salesforce" title="Salesforce"></div>
+        Salesforce
+        <p class="site-desc">For Salesforce administrators, implementation experts, developers and anybody in-between</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://scifi.stackexchange.com/" data-id="186" data-gps-track="site.switch({ target_site:186, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-scifi" title="Science Fiction &amp; Fantasy"></div>
+        Science Fiction &amp; Fantasy
+        <p class="site-desc">For science fiction and fantasy enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://cooking.stackexchange.com/" data-id="49" data-gps-track="site.switch({ target_site:49, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-cooking" title="Seasoned Advice"></div>
+        Seasoned Advice
+        <p class="site-desc">For professional and amateur chefs</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://serverfault.com/" data-id="2" data-gps-track="site.switch({ target_site:2, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-serverfault" title="Server Fault"></div>
+        Server Fault
+        <p class="site-desc">For system and network administrators</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://sharepoint.stackexchange.com/" data-id="232" data-gps-track="site.switch({ target_site:232, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-sharepoint" title="SharePoint"></div>
+        SharePoint
+        <p class="site-desc">For SharePoint enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://dsp.stackexchange.com/" data-id="295" data-gps-track="site.switch({ target_site:295, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-dsp" title="Signal Processing"></div>
+        Signal Processing
+        <p class="site-desc">For practitioners of the art and science of signal, image and video processing</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://skeptics.stackexchange.com/" data-id="212" data-gps-track="site.switch({ target_site:212, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-skeptics" title="Skeptics"></div>
+        Skeptics
+        <p class="site-desc">For scientific skepticism</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://sqa.stackexchange.com/" data-id="244" data-gps-track="site.switch({ target_site:244, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-sqa" title="Software Quality Assurance &amp; Testing"></div>
+        Software Quality Assurance &amp; Testing
+        <p class="site-desc">For software quality control experts, automation engineers, and software testers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://softwarerecs.stackexchange.com/" data-id="536" data-gps-track="site.switch({ target_site:536, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-softwarerecs" title="Software Recommendations"></div>
+        Software Recommendations
+        <p class="site-desc">For people seeking specific software recommendations</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://sound.stackexchange.com/" data-id="512" data-gps-track="site.switch({ target_site:512, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-sound" title="Sound Design"></div>
+        Sound Design
+        <p class="site-desc">For sound engineers, producers, editors, and enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://space.stackexchange.com/" data-id="508" data-gps-track="site.switch({ target_site:508, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-space" title="Space Exploration"></div>
+        Space Exploration
+        <p class="site-desc">For spacecraft operators, scientists, engineers, and enthusiasts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://spanish.stackexchange.com/" data-id="353" data-gps-track="site.switch({ target_site:353, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-spanish" title="Spanish Language"></div>
+        Spanish Language
+        <p class="site-desc">For students, teachers, and linguists wanting to discuss the finer points of the Spanish language</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://sports.stackexchange.com/" data-id="411" data-gps-track="site.switch({ target_site:411, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-sports" title="Sports"></div>
+        Sports
+        <p class="site-desc">For participants in team and individual sport activities</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://stackapps.com/" data-id="101" data-gps-track="site.switch({ target_site:101, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-stackapps" title="Stack Apps"></div>
+        Stack Apps
+        <p class="site-desc">For apps, scripts, and development with the Stack Exchange API</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://stackoverflow.com/" data-id="1" data-gps-track="site.switch({ target_site:1, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+        <p class="site-desc">For professional and enthusiast programmers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://pt.stackoverflow.com/" data-id="526" data-gps-track="site.switch({ target_site:526, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-br" title="Stack Overflow em Português"></div>
+        Stack Overflow em Português
+        <p class="site-desc">For programadores profissionais e entusiastas</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://ru.stackoverflow.com/" data-id="609" data-gps-track="site.switch({ target_site:609, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-ru" title="Stack Overflow на русском"></div>
+        Stack Overflow на русском
+        <p class="site-desc">For программистов</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://startups.stackexchange.com/" data-id="573" data-gps-track="site.switch({ target_site:573, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-startups" title="Startups"></div>
+        Startups
+        <p class="site-desc">For entrepreneurs faced with delivering a new product or service under conditions of significant uncertainty</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://superuser.com/" data-id="3" data-gps-track="site.switch({ target_site:3, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-superuser" title="Super User"></div>
+        Super User
+        <p class="site-desc">For computer enthusiasts and power users</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://sustainability.stackexchange.com/" data-id="483" data-gps-track="site.switch({ target_site:483, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-sustainability" title="Sustainable Living"></div>
+        Sustainable Living
+        <p class="site-desc">For folks dedicated to a lifestyle that can be maintained indefinitely without depleting available resources</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://tex.stackexchange.com/" data-id="85" data-gps-track="site.switch({ target_site:85, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-tex" title="TeX - LaTeX"></div>
+        TeX - LaTeX
+        <p class="site-desc">For users of TeX, LaTeX, ConTeXt, and related typesetting systems</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://outdoors.stackexchange.com/" data-id="395" data-gps-track="site.switch({ target_site:395, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-outdoors" title="The Great Outdoors"></div>
+        The Great Outdoors
+        <p class="site-desc">For people who love outdoor activities, excursions, and outdoorsmanship</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://workplace.stackexchange.com/" data-id="423" data-gps-track="site.switch({ target_site:423, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-workplace" title="The Workplace"></div>
+        The Workplace
+        <p class="site-desc">For members of the workforce navigating the professional setting</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://cstheory.stackexchange.com/" data-id="114" data-gps-track="site.switch({ target_site:114, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-cstheory" title="Theoretical Computer Science"></div>
+        Theoretical Computer Science
+        <p class="site-desc">For theoretical computer scientists and researchers in related fields</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://tor.stackexchange.com/" data-id="516" data-gps-track="site.switch({ target_site:516, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-tor" title="Tor"></div>
+        Tor
+        <p class="site-desc">For researchers, developers, and users of Tor</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://travel.stackexchange.com/" data-id="273" data-gps-track="site.switch({ target_site:273, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-travel" title="Travel"></div>
+        Travel
+        <p class="site-desc">For road warriors and seasoned travelers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://tridion.stackexchange.com/" data-id="485" data-gps-track="site.switch({ target_site:485, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-tridion" title="Tridion"></div>
+        Tridion
+        <p class="site-desc">For Tridion developers and administrators</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://unix.stackexchange.com/" data-id="106" data-gps-track="site.switch({ target_site:106, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-unix" title="Unix &amp; Linux"></div>
+        Unix &amp; Linux
+        <p class="site-desc">For users of Linux, FreeBSD and other Un*x-like operating systems</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://ux.stackexchange.com/" data-id="102" data-gps-track="site.switch({ target_site:102, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-ux" title="User Experience"></div>
+        User Experience
+        <p class="site-desc">For user experience researchers and experts</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://vi.stackexchange.com/" data-id="599" data-gps-track="site.switch({ target_site:599, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-vi" title="Vi and Vim"></div>
+        Vi and Vim
+        <p class="site-desc">For people using the vi and Vim families of text editors</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://video.stackexchange.com/" data-id="170" data-gps-track="site.switch({ target_site:170, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-avp" title="Video Production"></div>
+        Video Production
+        <p class="site-desc">For engineers, producers, editors, and enthusiasts spanning the fields of video, and media creation</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://webapps.stackexchange.com/" data-id="34" data-gps-track="site.switch({ target_site:34, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-webapps" title="Web Applications"></div>
+        Web Applications
+        <p class="site-desc">For power users of web applications</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://webmasters.stackexchange.com/" data-id="45" data-gps-track="site.switch({ target_site:45, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-webmasters" title="Webmasters"></div>
+        Webmasters
+        <p class="site-desc">For pro webmasters</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://windowsphone.stackexchange.com/" data-id="427" data-gps-track="site.switch({ target_site:427, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-windowsphone" title="Windows Phone"></div>
+        Windows Phone
+        <p class="site-desc">For enthusiasts and power users of Windows Phone OS</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://woodworking.stackexchange.com/" data-id="603" data-gps-track="site.switch({ target_site:603, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-woodworking" title="Woodworking"></div>
+        Woodworking
+        <p class="site-desc">For professional and amateur woodworkers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://wordpress.stackexchange.com/" data-id="110" data-gps-track="site.switch({ target_site:110, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-wordpress" title="WordPress Development"></div>
+        WordPress Development
+        <p class="site-desc">For WordPress developers and administrators</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://worldbuilding.stackexchange.com/" data-id="579" data-gps-track="site.switch({ target_site:579, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-worldbuilding" title="Worldbuilding"></div>
+        Worldbuilding
+        <p class="site-desc">For writers/artists using science, geography and culture to construct imaginary worlds and settings</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://writers.stackexchange.com/" data-id="166" data-gps-track="site.switch({ target_site:166, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-writers" title="Writers"></div>
+        Writers
+        <p class="site-desc">For authors, editors, reviewers, professional writers, and aspiring writers</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://rus.stackexchange.com/" data-id="613" data-gps-track="site.switch({ target_site:613, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-rus" title="Русский язык"></div>
+        Русский язык
+        <p class="site-desc">For лингвистов, этимологов, и энтузиастов русского языка</p>
+    </a>
+
+        </li>
+        <li>
+                <a class="other-site-link js-gps-track" href="http://ja.stackoverflow.com/" data-id="581" data-gps-track="site.switch({ target_site:581, item_type:3 }), site_switcher.click({ item_type:2 })">
+        <div class="site-icon favicon favicon-ja" title="スタック・オーバーフロー"></div>
+        スタック・オーバーフロー
+        <p class="site-desc">For プログラマーとプログラミングに熱心の人</p>
+    </a>
+
+        </li>
+</ul></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/" class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 149 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="#" class="topbar-icon icon-inbox yes-hover js-inbox-button" title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="#" class="topbar-icon icon-achievements yes-hover js-achievements-button" data-unread-class="" title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <a href="http://meta.stackoverflow.com/users/226469/david" class="profile-me js-gps-track" data-gps-track="profile_summary.click()">
+                    
+                    <div class="gravatar-wrapper-24" title="David"><img src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/99db7bcf612b9918f6526c09149aa71b.jpg" alt="" class="avatar-me js-avatar-me" height="24" width="24"></div>
+
+                    <div class="links-container topbar-flair">
+
+                        <span class="reputation" title="your reputation: 4,116">
+                            4,116
+                        </span>
+<span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>                    </div>
+                </a>
+                <div class="links-container">
+                    <span class="topbar-menu-links">
+
+
+
+                            <a href="http://meta.stackoverflow.com/review" title="Review queues - help improve the site">
+                                review
+                            </a>
+
+    <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                    <li>
+                        <a href="http://stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:5 })">
+                            Back to Stack Overflow
+                            <span class="item-summary">
+                                Return to the main site
+                            </span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://meta.stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://meta.stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/help/whats-meta" class="js-gps-track" data-gps-track="help_popup.click({ item_type:3 })">
+                            What's Meta?
+                            <span class="item-summary">
+                                How Meta is different from the main site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" placeholder="search" tabindex="1" autocomplete="off" maxlength="240" type="text">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="http://meta.stackoverflow.com/">
+                    Stack Overflow
+                        <span class="meta-title">meta</span>
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="http://meta.stackoverflow.com/questions">Questions</a></li>
+                        <li><a id="nav-tags" href="http://meta.stackoverflow.com/tags">Tags</a></li>
+                        <li><a id="nav-users" href="http://meta.stackoverflow.com/users">Users</a></li>
+                        <li><a id="nav-badges" href="http://meta.stackoverflow.com/help/badges">Badges</a></li>
+                        <li><a id="nav-unanswered" href="http://meta.stackoverflow.com/unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion" href="http://meta.stackoverflow.com/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+<div itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="http://cdn.sstatic.net/stackoverflowmeta/img/apple-touch-icon.png?v=b73aa18f2881">
+			<div id="question-header">
+                <h1 itemprop="name"><a href="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy" class="question-hyperlink">Integrate an online UML/diagram editor such as gliffy</a></h1>
+		</div>
+			<div id="mainbar">
+
+			
+
+<div class="question" data-questionid="306256" id="question">
+
+        <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="306256" type="hidden">
+        <a class="vote-up-off vote-up-on" title="This question shows research effort; it is useful and clear (click again to undo)">up vote</a>
+        <span style="cursor: pointer;" title="View upvote and downvote totals" itemprop="upvoteCount" class="vote-count-post ">-4</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="#" title="This is a favorite question (click again to undo)">favorite</a>
+        <div class="favoritecount"><b>1</b></div>
+
+
+</div>
+
+            </td>
+            
+<td class="postcell">
+<div>
+    <div class="post-text" itemprop="text">
+
+<p>It is helpful to draw diagrams to illustrate a question or an answer.
+ Since UML is the lingua franca of software descriptions, it'd be useful
+ to be able to include such diagrams too. Right now the process is a bit
+ cumbersome and requires the use of offline tools to grab screenshots to
+ be transferred over to imgur. It'd be neat if one could use an 
+integrated tool from within a question or an answer.</p>
+
+<p>Just as EE stack exchange has integrated <a href="https://www.circuitlab.com/" rel="nofollow">CircuitLab</a>, it'd help SE to integrate something like <a href="https://www.gliffy.com/" rel="nofollow">gliffy</a> or a similar tool.</p>
+<p>
+<img class="drawio" style="cursor:default;" src="data:image/png;base64,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">
+</p>
+<p>
+Double click to edit diagram
+</p>
+<p><em>I'm not affiliated with gliffy or anyone else other than my wife and kids, for that matter.</em></p>
+    </div>
+    <div class="post-taglist">
+        <a href="http://meta.stackoverflow.com/questions/tagged/feature-request" class="post-tag required-tag js-gps-track" title="" rel="tag">feature-request</a> 
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://meta.stackoverflow.com/q/306256/226469" title="short permalink to this question" class="short-link" id="link-post-306256">share</a><span class="lsep">|</span><a href="http://meta.stackoverflow.com/posts/306256/edit" class="edit-post" title="revise and improve this post">edit</a><span class="lsep">|</span><a href="#" class="close-question-link" title="vote to close this question (when closed, no new answers can be added)" data-questionid="306256" data-isclosed="false">close</a><span class="lsep">|</span><a href="#" class="flag-post-link" title="flag this post for serious problems or moderator attention" data-postid="306256">flag</a></div>        
+    </td>
+    <td class="post-signature owner">
+        <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-09-17 13:23:06Z" class="relativetime">Sep 17 at 13:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://meta.stackoverflow.com/users/1329652/kuba-ober"><div class="gravatar-wrapper-32"><img src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/fa4ef026ee4be15d3dbacc95f1773d03.png" alt="" height="32" width="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://meta.stackoverflow.com/users/1329652/kuba-ober">Kuba Ober</a><br>
+        <span class="reputation-score" title="reputation score 29649" dir="ltr">29.6k</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</div>
+</td>
+        </tr>
+                
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-306256" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="true" data-cansee="false" data-comments-unavailable="false" data-addlink-disabled="false">
+
+
+
+    <tr id="comment-248317" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="warm">5</span>
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I've rarely seen any questions that can't do without UML diagrams. In those cases, if there <i>has</i>
+ to be a diagram, a screenshot of one works just as well. I don't see 
+how the effort required to implement this would be worth it. For EE on 
+the other hand, circuit diagrams are often crucial to explain what's 
+(supposed to be) going on.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1835379/cerbrus" title="27920 reputation" class="comment-user">Cerbrus</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248317_306256"><span title="2015-09-17 13:28:17Z" class="relativetime-clean">Sep 17 at 13:28</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248321" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This probably wouldn't be a bad idea on <a href="http://programmers.stackexchange.com/">Programmers</a>, but you still already have the option of posting images there too.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1288/bill-the-lizard" title="184929 reputation" class="comment-user">Bill the Lizard</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248321_306256"><span title="2015-09-17 13:37:34Z" class="relativetime-clean">Sep 17 at 13:37</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248364" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Cerbrus I'm an EE, and I can
+ trivially generate an isomorphic human-readable textual description for
+ any circuit, so by that line of thinking why bother with circuit 
+diagrams either? I mean, I just gave you a counterexample that works for
+ <i>every</i> EE question: they <b>all</b> could do with a textual description only! I lament that the clarity and simplicity of circuit diagrams is <i>absent</i> from software and programming questions and answers. Having an integrated diagramming tool makes things easier, not harder.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1329652/kuba-ober" title="29649 reputation" class="comment-user owner">Kuba Ober</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248364_306256"><span title="2015-09-17 14:55:21Z" class="relativetime-clean">Sep 17 at 14:55</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248370" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This is, assuming everyone 
+knows UML. Hobbyist programmers are less likely to know UML than 
+hobbyist EE-ers are to know circuit diagrams. Those diagrams are like 
+the API to your hardware, whipe UML is a tool you usually only learn 
+about in school, or at your job.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1835379/cerbrus" title="27920 reputation" class="comment-user">Cerbrus</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248370_306256"><span title="2015-09-17 15:30:01Z" class="relativetime-clean">Sep 17 at 15:30</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248371" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Having people come to your 
+desk and talk it through is generally better too. The point is whether 
+the benefit to stack as a whole is worth the developer's time in 
+implementing it? Or would that time be better spent on other projects.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1358/ebgreen" title="17112 reputation" class="comment-user">EBGreen</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248371_306256"><span title="2015-09-17 15:31:22Z" class="relativetime-clean">Sep 17 at 15:31</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248373" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@EBGreen: that's what I was trying to say, yea.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1835379/cerbrus" title="27920 reputation" class="comment-user">Cerbrus</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248373_306256"><span title="2015-09-17 15:32:34Z" class="relativetime-clean">Sep 17 at 15:32</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+				    <tfoot>
+					    <tr>
+						    <td></td>
+						    <td class="comment-form">
+							    <form id="add-comment-306256" class="" data-placeholdertext="Use comments to ask for clarification or add more information. Avoid answering questions in comments."></form>
+						    </td>
+					    </tr>
+				    </tfoot>
+		    </table>
+	    </div>
+
+        <div id="comments-link-306256">
+
+                <a class="js-add-link comments-link " title="Use comments to ask for clarification or add more information. Avoid answering questions in comments." href="#">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+        </div>         
+    </td>
+</tr>        </tbody></table>
+</div>
+
+			<div id="answers">
+
+				<a name="tab-top"></a>
+				<div id="answers-header">
+					<div class="subheader answers-subheader">
+						<h2>
+								1 Answer
+                                <span style="display:none;" itemprop="answerCount">1</span>
+						</h2>
+						<div>
+							<div id="tabs">
+        <a href="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active">active</a>
+        <a href="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest">oldest</a>
+        <a class="youarehere" href="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes">votes</a>
+</div>
+						</div>
+					</div>    
+				</div>    
+
+
+
+
+  
+<a name="306257"></a>
+<div id="answer-306257" class="answer" data-answerid="306257" itemscope="" itemtype="http://schema.org/Answer">
+
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="306257" type="hidden">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span style="cursor: pointer;" title="View upvote and downvote totals" itemprop="upvoteCount" class="vote-count-post ">5</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I disagree with this request.</p>
+
+<p>I've rarely seen any questions that can't do without UML diagrams. In those cases, if there <em>has</em> to be a diagram, a <strong>screenshot</strong> of one works just as well. I don't see how the effort required to implement this would be worth it.</p>
+
+<p>For EE on the other hand, circuit diagrams are often crucial to explain what's (supposed to be) going on.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://meta.stackoverflow.com/a/306257/226469" title="short permalink to this answer" class="short-link" id="link-post-306257">share</a><span class="lsep">|</span><a href="http://meta.stackoverflow.com/posts/306257/edit" class="edit-post" title="revise and improve this post">edit</a><span class="lsep">|</span><a href="#" class="flag-post-link" title="flag this post for serious problems or moderator attention" data-postid="306257">flag</a></div>                    </td>
+            
+
+
+    <td class="post-signature" align="right">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2015-09-17 13:30:27Z" class="relativetime">Sep 17 at 13:30</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://meta.stackoverflow.com/users/1835379/cerbrus"><div class="gravatar-wrapper-32"><img src="Integrate%20an%20online%20UML_diagram%20editor%20such%20as%20gliffy%20-%20Meta%20Stack%20Overflow_files/i63aC.gif" alt="" height="32" width="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://meta.stackoverflow.com/users/1835379/cerbrus">Cerbrus</a><br>
+        <span class="reputation-score" title="reputation score 27920" dir="ltr">27.9k</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="42 silver badges"><span class="badge2"></span><span class="badgecount">42</span></span><span title="70 bronze badges"><span class="badge3"></span><span class="badgecount">70</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-306257" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="true" data-cansee="false" data-comments-unavailable="false" data-addlink-disabled="false">
+
+
+
+    <tr id="comment-248362" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">It's true that you can do <i>without</i>
+ UML. But I think that if we are to encourage judicious use of UML as a 
+lingua franca, barriers to entry are unhelpful. Adoption of UML forces a
+ clearer view of what's going on - whether you talk about class 
+inheritance trees, or state transitions, or interactions. Sometimes just
+ attempting to draw one immediately points out where the problem is. I'm
+ as far from an enterprisey UML-everywhere proponent as it gets, but UML
+ is a very concise and visual way of expressing quite a few things that 
+are much harder to get across in writing, especially with ESL issues.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1329652/kuba-ober" title="29649 reputation" class="comment-user owner">Kuba Ober</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248362_306257"><span title="2015-09-17 14:51:23Z" class="relativetime-clean">Sep 17 at 14:51</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248406" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@KubaOber I don't think 
+anyone's disagreeing that UML is a good thing, but you can do all that 
+with gliffy and take a screenshot - what's the benefit of having the 
+tool embedded in SO? Is it just to avoid that step of saving then 
+uploading the image manually?</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/830680/clive" title="30980 reputation" class="comment-user">Clive</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248406_306257"><span title="2015-09-17 16:19:34Z" class="relativetime-clean">Sep 17 at 16:19</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248427" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Clive Whatever argument you 
+have is the argument for not integrating CircuitLab into EE 
+stackexchange, I think. The only benefit of the integration <i>there</i>
+ is that you don't have to copy/upload images manually, and that the 
+schematic is editable. Same would be here. And your argument would also 
+apply to math stackexchange: we can all be copy-pasting screenshots from
+ latex output...</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1329652/kuba-ober" title="29649 reputation" class="comment-user owner">Kuba Ober</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248427_306257"><span title="2015-09-17 16:47:13Z" class="relativetime-clean">Sep 17 at 16:47</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248432" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Let's recap: Math SE has 
+integrated their lingua franca: expressions, EE has integrated a circuit
+ editor, SE &amp; Programmers should imho integrate a diagram editor. 
+Heck, probably <i>all</i> sites could use diagrams, so this could be 
+site-wide. Taking apart the syntax of a sentence in some language that 
+has its SE site? Use a diagram. Talking of some DIY gizmo? Draw it. And 
+so on. The integration increases the likelihood of visual expression by 
+an order of magnitude or more. IMHO we should be all for such 
+integration.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1329652/kuba-ober" title="29649 reputation" class="comment-user owner">Kuba Ober</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248432_306257"><span title="2015-09-17 16:50:33Z" class="relativetime-clean">Sep 17 at 16:50</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248438" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I'm still not convinced. I 
+just think the use case is way too small to justify implementing 
+something this significant. Yout usage examples hardly apply to stack 
+overflow. SO programming questions are mostly just bugs and simple logic
+ that really doesn't need a diagram to explain.</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/1835379/cerbrus" title="27920 reputation" class="comment-user">Cerbrus</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248438_306257"><span title="2015-09-17 16:55:18Z" class="relativetime-clean">Sep 17 at 16:55</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248444" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Er, who's arguing? Chill, my 
+friend. I just wanted clarification on your feature request, I'm not for
+ or against it yet. Maybe linking to a few examples of great questions 
+that could have been made even greater, or poor questions that could 
+have been made good, by even including any UML at all, would help your 
+case? Once that's established it'll be easier to talk about a problem 
+that needs solving</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/830680/clive" title="30980 reputation" class="comment-user">Clive</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248444_306257"><span title="2015-09-17 17:03:31Z" class="relativetime-clean">Sep 17 at 17:03</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-248449" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                <a class="comment-up comment-up-off" title="this comment adds something useful to the post">upvote</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                                <td>
+                                    <a class="comment-flag" title="Flag this comment for serious problems or moderator attention">flag</a>
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Yeah, what @Cerbrus said. I 
+mean, I do remember on occasion seeing a question and thinking "wouldn't
+ mind seeing a class diagram for this", but it's not the norm in my own 
+experience. Your experience is obviously different, so it would be 
+interesting (for me anyway) to see the types of question that would 
+routinely benefit from this feature</span>
+                –&nbsp;
+                    <a href="http://meta.stackoverflow.com/users/830680/clive" title="30980 reputation" class="comment-user">Clive</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment248449_306257"><span title="2015-09-17 17:08:15Z" class="relativetime-clean">Sep 17 at 17:08</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+				    <tfoot>
+					    <tr>
+						    <td></td>
+						    <td class="comment-form">
+							    <form id="add-comment-306257" class="" data-placeholdertext="Use comments to ask for clarification or add more information. Avoid comments like “+1” or “thanks”."></form>
+						    </td>
+					    </tr>
+				    </tfoot>
+		    </table>
+	    </div>
+
+        <div id="comments-link-306257">
+
+                <a class="js-add-link comments-link " title="Use comments to ask for clarification or add more information. Avoid comments like “+1” or “thanks”." href="#">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+									<a name="new-answer"></a>
+						<form id="post-form" action="/questions/306256/answer/submit" method="post" class="post-form">
+						    <input id="post-id" value="306256" type="hidden">
+                            <input id="qualityBanWarningShown" name="qualityBanWarningShown" value="false" type="hidden">
+                            <input name="referrer" value="https://www.google.com" type="hidden">
+							<h2 class="space">Your Answer</h2>
+
+
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        initTagRenderer("bug feature-request discussion support".split(" "), "faq status-completed status-declined status-bydesign status-norepro status-reproduced status-planned status-deferred status-review featured community-ads".split(" "));
+       
+        StackExchange.using("externalEditor", function() {
+            // Have to fire editor after snippets, if snippets enabled
+            if (StackExchange.options.snippets.enabled) {
+                StackExchange.using("snippets", function() {
+                    createEditor();
+                });
+            }
+            else {
+                createEditor();
+            }
+        });
+
+        function createEditor() {
+            prepareEditor({
+                heartbeatType: 'answer',
+                bindNavPrevention: true,
+                postfix: "",
+                    onDemand: false,
+                    discardSelector: ".discard-answer"
+                
+                });
+                
+
+        }
+    });  
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor">
+
+    <div style="position: relative;">     
+        <div class="wmd-container">
+            <div id="wmd-button-bar" class="wmd-button-bar"><ul class="wmd-button-row" id="wmd-button-row"><li title="Strong &lt;strong&gt; Ctrl+B" id="wmd-bold-button" style="left: 0px;" class="wmd-button"><span style="background-position: 0px 0px;"></span></li><li title="Emphasis &lt;em&gt; Ctrl+I" id="wmd-italic-button" style="left: 25px;" class="wmd-button"><span style="background-position: -20px 0px;"></span></li><li id="wmd-spacer1" class="wmd-spacer wmd-spacer1"></li><li title="Hyperlink &lt;a&gt; Ctrl+L" id="wmd-link-button" style="left: 75px;" class="wmd-button"><span style="background-position: -40px 0px;"></span></li><li title="Blockquote &lt;blockquote&gt; Ctrl+Q" id="wmd-quote-button" style="left: 100px;" class="wmd-button"><span style="background-position: -60px 0px;"></span></li><li title="Code Sample &lt;pre&gt;&lt;code&gt; Ctrl+K" id="wmd-code-button" style="left: 125px;" class="wmd-button"><span style="background-position: -80px 0px;"></span></li><li title="Image &lt;img&gt; Ctrl+G" id="wmd-image-button" style="left: 150px;" class="wmd-button"><span style="background-position: -100px 0px;"></span></li><li class="wmd-button wmd-snippet-button" style="left:175px" id="wmd-snippet-button" title="JavaScript/HTML/CSS snippet Ctrl-M"><span style="background-image: url(&quot;/content/balsamiq/wmd-mockup-button.png?v=4&quot;);"></span></li><li style="left: 220px;" id="wmd-spacer2" class="wmd-spacer wmd-spacer2"></li><li title="Numbered List &lt;ol&gt; Ctrl+O" id="wmd-olist-button" style="left: 225px;" class="wmd-button"><span style="background-position: -120px 0px;"></span></li><li title="Bulleted List &lt;ul&gt; Ctrl+U" id="wmd-ulist-button" style="left: 250px;" class="wmd-button"><span style="background-position: -140px 0px;"></span></li><li title="Heading &lt;h1&gt;/&lt;h2&gt; Ctrl+H" id="wmd-heading-button" style="left: 275px;" class="wmd-button"><span style="background-position: -160px 0px;"></span></li><li title="Horizontal Rule &lt;hr&gt; Ctrl+R" id="wmd-hr-button" style="left: 300px;" class="wmd-button"><span style="background-position: -180px 0px;"></span></li><li style="left: 346px;" id="wmd-spacer3" class="wmd-spacer wmd-spacer3"></li><li title="Undo - Ctrl+Z" id="wmd-undo-button" style="left: 350px;" class="wmd-button"><span style="background-position: -200px -20px;"></span></li><li title="Redo - Ctrl+Shift+Z" id="wmd-redo-button" style="left: 375px;" class="wmd-button"><span style="background-position: -220px -20px;"></span></li><li title="Markdown Editing Help" style="right: 0px; left: 639px;" id="wmd-help-button" class="wmd-button wmd-help-button"><span style="background-position: -240px 0px;"></span></li></ul></div>
+            <textarea id="wmd-input" class="wmd-input processed" name="post-text" cols="92" rows="15" tabindex="101" data-min-length=""></textarea>
+        <div style="margin-right: 0px;" class="grippie"></div></div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+    <div class="community-option">
+        <input id="communitymode" name="communitymode" type="checkbox">
+        <label for="communitymode" title="Marking an answer community wiki encourages others to edit it by lowering the reputation barrier required to edit. However, you will not gain any upvote reputation from it. This cannot be undone.">community wiki</label>
+    </div>
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" value="6a453ecb79a61fbd90ba47003bad82fc" type="hidden">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+							<div style="position: relative;">
+								
+								
+							</div>
+           
+															<div class="form-submit cbt">
+									<input id="submit-button" value="Post Your Answer" tabindex="110" type="submit">
+									<a href="#" class="discard-answer dno">discard</a>
+								</div>
+						</form>
+
+					<script>
+						StackExchange.using("inlineEditing", function () {
+							StackExchange.inlineEditing.init();
+						});
+					</script>
+
+
+						<h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?							Browse other questions tagged <a href="http://meta.stackoverflow.com/questions/tagged/feature-request" class="post-tag required-tag" title="show questions tagged 'feature-request'" rel="tag">feature-request</a>  or <a href="http://meta.stackoverflow.com/questions/ask">ask your own question</a>.						</h2>
+			</div>
+		</div>
+				<div id="sidebar" class="show-votes">
+						    <div class="module question-stats">
+			        <table id="qinfo">
+			            <tbody><tr>
+			                <td>
+			                    <p class="label-key">asked</p>
+			                </td>
+			                <td style="padding-left: 10px">
+			                    <p class="label-key" title="2015-09-17 13:23:06Z"><b>3 days ago</b></p>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>
+			                    <p class="label-key">viewed</p>
+			                </td>
+
+			                <td style="padding-left: 10px">
+			                    <p class="label-key">
+			                        <b>73 times</b>
+			                    </p>
+			                </td>
+			            </tr>
+			                <tr>
+			                    <td>
+			                        <p class="label-key">active</p>
+			                    </td>
+			                    <td style="padding-left: 10px">
+			                        <p class="label-key"><b><a href="http://meta.stackoverflow.com/questions/306256/integrate-an-online-uml-diagram-editor-such-as-gliffy?lastactivity" class="lastactivity-link" title="2015-09-17 13:30:27Z">3 days ago</a></b></p>
+			                    </td>
+			                </tr>
+			        </tbody></table>
+			    </div>
+			<div class="module community-bulletin" data-tracker="cb=1">
+    <div class="related">
+                <div class="bulletin-title">
+                    Featured on Meta
+                </div>
+                <hr>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <a href="http://meta.stackoverflow.com/questions/306213/warlords-of-documentation-your-questions-answered?cb=1" class="question-hyperlink">
+<div class="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>                </a>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/306213/warlords-of-documentation-your-questions-answered?cb=1" class="question-hyperlink">Warlords of Documentation: Your Quest(ions Answered)</a>
+                </div>
+                <br class="cbt">
+            </div>
+                <div class="bulletin-title">
+                    Hot Meta Posts
+                </div>
+                <hr>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">40</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/306419/people-should-get-notified-when-answers-to-their-posts-are-edited?cb=1" class="question-hyperlink">People should get notified when answers to their posts are edited</a>
+                </div>
+                <br class="cbt">
+            </div>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">24</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/306437/do-t-shirts-and-other-so-swag-still-have-the-old-logo?cb=1" class="question-hyperlink">Do t-shirts and other SO swag still have the old logo?</a>
+                </div>
+                <br class="cbt">
+            </div>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">20</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/306420/is-this-spam-or-is-it-acceptable?cb=1" class="question-hyperlink">Is this spam, or is it acceptable?</a>
+                </div>
+                <br class="cbt">
+            </div>
+    </div>
+</div>			
+			
+			  
+    
+            
+
+				<div class="module sidebar-related">
+					<h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/253628?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">0
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/253628/can-we-have-the-se-equation-editor-for-stackoverflow?rq=1" class="question-hyperlink">Can we have the SE equation editor for StackOverflow</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/267124?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">-8
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/267124/inline-integration-of-online-compilers?rq=1" class="question-hyperlink">Inline integration of online compilers</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/272545?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted default">-8
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/272545/integrating-google-translate-service-in-stack-overflow?rq=1" class="question-hyperlink">Integrating Google Translate service in Stack Overflow?</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/281232?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted large">-31
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/281232/integrate-cryptocurrency-tipping?rq=1" class="question-hyperlink">Integrate cryptocurrency tipping</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/283694?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes large">-16
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/283694/indicate-if-a-user-is-online-via-their-user-info-panel?rq=1" class="question-hyperlink">Indicate if a user is 'online' via their user info panel</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/288249?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">-8
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/288249/integrate-unique-registration-method-to-prevent-duplicate-accounts?rq=1" class="question-hyperlink">Integrate unique registration method to prevent duplicate accounts</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/289191?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">67
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/289191/proposed-improvements-to-scrolling-in-the-editor?rq=1" class="question-hyperlink">Proposed improvements to scrolling in the editor</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/289897?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes large">-42
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/289897/show-how-many-online-users-could-answer-the-question?rq=1" class="question-hyperlink">Show how many online users could answer the question</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/294483?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes large">-14
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/294483/possible-github-integration-such-as-code-imports?rq=1" class="question-hyperlink">Possible Github integration such as code imports?</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://meta.stackoverflow.com/q/300942?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">-6
+    </div>
+</a><a href="http://meta.stackoverflow.com/questions/300942/integrate-a-real-time-code-syntax-tester?rq=1" class="question-hyperlink">Integrate a real time code syntax tester</a>
+</div>
+
+                    </div>
+				</div>
+            
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/268633/how-to-draw-a-curve-free" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to draw a curve free?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/973213/how-can-a-file-size-be-zero" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can a file size be zero?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-parenting" title="Parenting Stack Exchange"></div><a href="http://parenting.stackexchange.com/questions/22120/do-most-2-3-year-old-toddlers-deliberately-disobey" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:228 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Do most 2-3-year-old toddlers deliberately disobey?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/54069/justification-for-aggressive-investment-strategy-when-young" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Justification for aggressive investment strategy when young?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/268638/is-it-possible-to-program-a-command-wrapper" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is it possible to "program" a command wrapper?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/274539/handwriting-is-to-illegible-as-drawing-is-to-what" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:97 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Handwriting is to illegible as drawing is to what?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/95087/is-it-possible-to-change-the-order-that-symbol-definitions-are-checked-downval" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is it possible to change the order that symbol definitions are checked? (DownValues vs UpValues)
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange"></div><a href="http://skeptics.stackexchange.com/questions/30094/did-donald-trump-file-for-bankruptcy-four-times" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Did Donald Trump file for bankruptcy four times?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-sharepoint" title="SharePoint Stack Exchange"></div><a href="http://sharepoint.stackexchange.com/questions/157517/use-sharepoint-2013-working-on-it-during-ajax-call" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:232 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Use SharePoint 2013 "Working on it..." during ajax call
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-chess" title="Chess Stack Exchange"></div><a href="http://chess.stackexchange.com/questions/12368/the-strength-of-blind-chess-players" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:435 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    The strength of blind chess players
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-anime" title="Anime &amp; Manga Stack Exchange"></div><a href="http://anime.stackexchange.com/questions/26036/what-is-a-character-song" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:477 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What is a "character song"?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-dsp" title="Signal Processing Stack Exchange"></div><a href="http://dsp.stackexchange.com/questions/25948/adjust-mean-of-signal-using-exponential" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:295 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    adjust mean of signal using exponential
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-stats" title="Cross Validated"></div><a href="http://stats.stackexchange.com/questions/173060/what-exactly-is-big-data" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What exactly is Big Data?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-android" title="Android Enthusiasts Stack Exchange"></div><a href="http://android.stackexchange.com/questions/123695/why-does-different-android-phones-with-same-camera-specs-have-different-picture" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:139 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why does different Android phones with same camera specs have different picture quality?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/268646/using-left-and-right-in-math-mode-but-the-display-is-not-satisfied" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Using \left and \right in math mode, but the display is not satisfied
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/103148/snotty-made-a-joke-i-dont-understand" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Snotty made a joke I don't understand
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1444590/non-associative-set-with-a-binary-operation-but-has-inverses-and-identity" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Non-associative: set with a binary operation, but has inverses and identity
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="http://mathoverflow.net/questions/218762/fixed-points-of-permutation-groups" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    fixed points of permutation groups
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-apple" title="Ask Different"></div><a href="http://apple.stackexchange.com/questions/206669/can-i-modify-a-terminal-command-to-do-additional-stuff" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:118 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can I modify a terminal command to do additional stuff?
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/25869/how-to-enforce-a-ban-on-vegetarianism" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to enforce a Ban on Vegetarianism
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/105202/optimizing-project-euler-solution-12" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Optimizing Project Euler Solution #12
+                </a>
+
+            </li>
+            <li style="display: list-item;" class="dno js-hidden">
+                <div class="favicon favicon-outdoors" title="The Great Outdoors Stack Exchange"></div><a href="http://outdoors.stackexchange.com/questions/9466/what-do-mountaineers-eat-and-drink-on-the-day-of-an-everest-summit" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:395 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What do mountaineers eat and drink on the day of an Everest summit?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/68856/can-i-do-a-double-move-while-moving-silently-and-still-avoid-the-%e2%88%9220-penalty" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can I do a double move while moving silently and still avoid the −20 penalty?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1443664/where-is-the-flaw-in-my-proof-that-the-union-of-two-continuous-functions-is-cont" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Where is the flaw in my proof that the union of two continuous functions is continuous?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:11 })">
+            more hot questions
+        </a>
+</div>
+		</div>
+	
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://meta.stackoverflow.com/feeds/question/306256" title="feed of this question and its answers">
+            <span class="feed-icon"></span>question feed
+        </a>
+    </div>
+</div>	<script>
+StackExchange.ready(function(){$.get('/posts/306256/ivc/8e20');});
+</script>
+<noscript>
+    <div><img src="/posts/306256/ivc/8e20" class="dno" alt="" width="0" height="0"></div>
+</noscript><div style="display:none" id="prettify-lang"></div></div>
+
+    <script>
+        $('#wmd-input').one("keypress", function() {
+            $.ajax({
+                url: '/accounts/email-settings-form',
+                cache: false,
+                success: function(data) {
+                    $('#submit-button').parent().prepend(data);
+                }
+            });
+        });
+
+    </script>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://meta.stackoverflow.com/help">help</a>
+                    <a href="http://blog.stackoverflow.com/?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com/">chat</a>
+                    <a href="http://data.stackexchange.com/">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://meta.stackoverflow.com/contact">contact us</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tbody><tr>
+            <th colspan="3">
+                Technology
+            </th>
+            <th>
+                Life / Arts
+            </th>
+            <th>
+                Culture / Recreation
+            </th>
+            <th>
+                Science
+            </th>
+            <th>
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com/" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</tbody></table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo © 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.9.18.3703
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Meta Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-4', {'userId': '79982' });
+                ga('set', 'dimension1', '79982');                 ga('set', 'dimension2', '|feature-request|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    
+</body></html>
